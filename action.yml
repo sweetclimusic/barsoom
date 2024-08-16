@@ -10,15 +10,3 @@ outputs:
 runs:
   using: 'node20'
   with: 'index.js'
-# name: "Barsoom Greeting"
-
-# on: 
-#   repository_dispatch:
-#    types: 
-#      - webhook
-
-#   jobs:
-#      response-to-dispatch:
-#       runs-on: ubuntu-latest
-#        steps:
-#         - 
