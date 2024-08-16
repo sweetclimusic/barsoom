@@ -9,4 +9,4 @@ outputs:
 
 runs:
   using: 'node20'
-  with: 'index.js'
+  main: 'index.js'
