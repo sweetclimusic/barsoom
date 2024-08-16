@@ -1,5 +1,5 @@
 import * as core from '@actions/core';
-import * as core from '@actions/actions';
+import * as github from '@actions/actions';
 
 try {
     const name = core.getInput('name');
