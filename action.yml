@@ -1,0 +1,24 @@
+name: "Barsoom Greeting"
+inputs:
+  caller:
+   description: "Who to greet"
+   required: true
+outputs:
+  message:
+   description: "How we answer back"
+
+runs:
+  using: 'node20'
+  with: 'index.js'
+# name: "Barsoom Greeting"
+
+# on: 
+#   repository_dispatch:
+#    types: 
+#      - webhook
+
+#   jobs:
+#      response-to-dispatch:
+#       runs-on: ubuntu-latest
+#        steps:
+#         - 
